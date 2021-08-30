@@ -5,7 +5,6 @@ phases:
         python: 3.8
   build:
     commands:
-      - aws iam get-user
       - sam package --template-file template.yml --s3-bucket codepipeline-us-east-1-202783545158 --output-template-file packaged-template.yml 
 artifacts:
   files:
