@@ -18,6 +18,8 @@ phases:
                     --no-fail-on-empty-changeset 
                     --capabilities CAPABILITY_IAM 
                     --no-confirm-changeset
+                    --config-file samconfig.toml
+
 artifacts:
   files:
     - packaged-template.yml
