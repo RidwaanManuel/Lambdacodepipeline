@@ -8,4 +8,4 @@ s3_prefix = "autopub"
 region = "us-east-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
-parameter_overrides = ["InstanceTypeParameter"="m2.small"]
+parameter_overrides = ["InstanceTypeParameter=m2.small"]
